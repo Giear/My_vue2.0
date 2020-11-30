@@ -1,0 +1,17 @@
+.custom {
+  background-color: #465485;
+
+  & ::v-deep {
+    .van-nav-bar__left {
+      .van-icon {
+        color: #fff;
+      }
+      .van-nav-bar__text {
+        color: #fff;
+      }
+    }
+    .van-nav-bar__title {
+      color: #fff;
+    }
+  }
+}
